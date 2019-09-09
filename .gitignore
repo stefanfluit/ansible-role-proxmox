@@ -6,3 +6,6 @@ ansible.cfg
 *.retry
 /.project
 /.pydevproject
+
+*.key
+*.pem

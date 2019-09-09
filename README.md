@@ -95,6 +95,19 @@ lab-cluster/
 
 6 directories, 12 files
 ```
+## Can copy this if you want.
+```
+\
+mkdir -p lab-cluster/files/pve01
+mkdir -p lab-cluster/group_vars/all
+mkdir -p lab-cluster/group_vars/pve01
+mkdir -p lab-cluster/inventory
+mkdir -p lab-cluster/roles/
+mkdir -p lab-cluster/templates
+touch lab-cluster/templtates/interfaces-pve01.j2
+touch lab-cluster/roles/requirements.yml
+```
+```
 
 First thing you may note is that we have a bunch of `.key` and `.pem` files.
 These are private keys and SSL certificates that this role will use to configure
