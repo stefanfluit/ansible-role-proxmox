@@ -7,5 +7,4 @@ ansible.cfg
 /.project
 /.pydevproject
 
-*.key
-*.pem
+lab-cluster/files/pve01
